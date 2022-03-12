@@ -23,7 +23,7 @@ int main()
     run_gaussian_blur(img,  new GaussianArgs(32, 1.5));
     run_otsu_threshold(img);
     run_morph_filter(img, new MorphSize(2), OPEN_CLOSE, ELEMENT::CROSS, 5);
-    // run_boundary_trace(img);
+    run_boundary_trace(img);
     run_floodfill(img);
     run_bitwise_not(img);
     run_bitwise_or(img);
